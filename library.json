@@ -5,7 +5,7 @@
     "keywords": "tools",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DarylStark/dsl_entities/"
+        "url": "https://github.com/DarylStark/dsl_utilities/"
     },
     "authors": [
         {
@@ -18,10 +18,7 @@
         "-std=gnu++17"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/DarylStark/dsl_entities/",
-    "dependencies": {
-        "dsl_models": "~0.0.1"
-    },
+    "homepage": "https://github.com/DarylStark/dsl_utilities/",
     "frameworks": "*",
     "platforms": "*"
 }
