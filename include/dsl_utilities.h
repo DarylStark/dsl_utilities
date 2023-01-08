@@ -1,5 +1,5 @@
-#ifndef __UTILITIES_H__
-#define __UTILITIES_H__
+#ifndef __DSL_UTILITIES_H__
+#define __DSL_UTILITIES_H__
 
 #include <chrono>
 #include <functional>
@@ -30,4 +30,4 @@ namespace dsl
     };
 };
 
-#endif /* __UTILITIES_H__ */
+#endif /* __DSL_UTILITIES_H__ */
