@@ -3,7 +3,13 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
+                "${workspaceFolder}/include/",
+                "/home/dast/Dev/lib/dsl_utilities/include",
+                "/home/dast/Dev/lib/dsl_utilities/src",
+                "/home/dast/Dev/lib/dsl_entities/include",
+                "/home/dast/Dev/lib/dsl_entities/src",
+                "/home/dast/Dev/lib/dsl/include",
+                "/home/dast/Dev/lib/dsl/src"
             ],
             "defines": [],
             "compilerPath": "/home/dast/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc",
