@@ -17,6 +17,7 @@ namespace dsl
             bool __started;
             scopedtimer_callback_type __callback;
             std::chrono::_V2::system_clock::time_point __start;
+            void __run_callback();
 
         public:
             // Constructors and destructors
@@ -25,6 +26,8 @@ namespace dsl
             ~ScopedTimer();
 
             // Timer functions
+            void start();
+            void lap();
             void stop();
         };
     };
